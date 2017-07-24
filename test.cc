@@ -1,7 +1,11 @@
 #include <iostream>
 
 int main() {
-    std::cout << "/*";
+    int val;
+
+    while(std::cin >> val) {
+        std::cout << val << std::endl;
+    }
 
     return 0;
 }
