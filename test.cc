@@ -3,9 +3,8 @@
 int main() {
     int val;
 
-    while(std::cin >> val) {
-        std::cout << val << std::endl;
-    }
+    signed char testChar = 256;
+    std::cout << testChar << std::endl;
 
     return 0;
 }
