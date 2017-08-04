@@ -1,10 +1,13 @@
 #include <iostream>
 
-int main() {
-    int val;
+int uninit;
 
-    signed char testChar = 256;
-    std::cout << testChar << std::endl;
+int main() {
+    char val;
+    int wage = 1;
+    int salary = wage = 100;
+
+    std::cout << salary << '\n' << wage << std::endl;
 
     return 0;
 }
